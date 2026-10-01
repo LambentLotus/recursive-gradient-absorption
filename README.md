@@ -1,8 +1,10 @@
-# RGA
+# RGA (Recursive Gradient Absorption)
 
-Recursive Gradient Absorption - train deep networks without gradient explosion.
+Train 50+ layer neural networks without gradient explosion using self-referential regularization.
 
-## Usage
-```python
-from rga_layer import RGALayer
-layer = RGALayer(256, 256)
+## Installation
+
+```bash
+git clone https://github.com/YOURUSERNAME/rga.git
+cd rga
+pip install -e .
